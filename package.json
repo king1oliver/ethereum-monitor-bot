@@ -1,0 +1,14 @@
+{
+  "name": "ethereum-monitor-bot",
+  "version": "1.0.0",
+  "description": "Ethereum monitoring bot with Telegram notifications",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.0",
+    "node-telegram-bot-api": "^0.54.0"
+  }
+}
